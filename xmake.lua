@@ -1,4 +1,5 @@
 add_rules("mode.debug", "mode.release", "mode.asan", "mode.check", "mode.tsan", "mode.lsan" ,"mode.ubsan","mode.valgrind")
+add_rules("plugin.vsxmake.autoupdate")
 add_rules("plugin.compile_commands.autoupdate")
 
 set_languages("c17", "c++20")
